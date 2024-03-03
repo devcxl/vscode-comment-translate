@@ -49,7 +49,7 @@ export class BaiduTranslate extends BaseTranslate {
         };
         const response = await got.get(api_url, { searchParams: params });
         const json_reads = JSON.parse(response.body);
-        return json_reads.trans_result[0].dst;
+        return json_reads.trans_result.map((item: { dst: any; }) => item.dst).join('\n');
     }
 
     link(content: string, { to = 'auto', from='auto' }: ITranslateOptions): string {
