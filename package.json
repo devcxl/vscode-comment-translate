@@ -568,7 +568,7 @@
                     },
                     "commentTranslate.multiLineMerge": {
                         "type": "boolean",
-                        "default": false,
+                        "default": true,
                         "order": 25,
                         "description": "%commentTranslate.configuration.MultilineMerge%"
                     },
@@ -617,6 +617,16 @@
                     "commentTranslate.source": {
                         "type": "string",
                         "default": "Google",
+                        "enum": [
+                            "Google",
+                            "Baidu",
+                            "Bing"
+                        ],
+                        "enumDescriptions": [
+                            "Google",
+                            "Baidu",
+                            "Bing"
+                        ],
                         "order": 27,
                         "description": "%commentTranslate.configuration.source%"
                     },
