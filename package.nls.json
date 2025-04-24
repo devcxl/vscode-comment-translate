@@ -1,5 +1,5 @@
 {
-    "commentTranslate.displayName": "Comment Translate",
+    "commentTranslate.displayName": "Better Comment Translate",
     "commentTranslate.description": "This extension helps developers translate comments, strings, code hints, error messages, and variable names in their code.",
     "commentTranslate.command.select": "Select the last translation area",
     "commentTranslate.command.clipboard": "Translate Clipboard",

@@ -30,7 +30,7 @@ export async function selectTargetLanguage(placeHolder: string = 'Select target 
             quickPick.placeholder = placeHolder;
             let button = {
                 iconPath: new ThemeIcon('settings-gear'),
-                tooltip: 'Open Comment Translate setting.'
+                tooltip: 'Open Better Comment Translate setting.'
             };
 
             let changeTranslateSourceButton = {

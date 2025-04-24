@@ -46,7 +46,7 @@ export async function translateAllForType(type = 'comment') {
 
     window.withProgress({
         location: ProgressLocation.Window,
-        title: 'Comment Translate'
+        title: 'Better Comment Translate'
     },
         async progress => {
             if (!editor) return;

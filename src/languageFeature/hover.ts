@@ -341,7 +341,7 @@ function createHoverMarkdownString(
     const translate = `[$(sync)](command:commentTranslate.changeTranslateSource "Change translate source")`;
 
     const header = new MarkdownString(
-        `[Comment Translate]${space}${replace}${space}${combine}${space}${addSelection}${separator}${translate}${space}${translateLink}`,
+        `[Better Comment Translate]${space}${replace}${space}${combine}${space}${addSelection}${separator}${translate}${space}${translateLink}`,
         true
     );
     header.isTrusted = true;

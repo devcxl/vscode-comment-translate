@@ -1,9 +1,9 @@
 {
-    "name": "comment-translate",
+    "name": "better-comment-translate",
     "displayName": "%commentTranslate.displayName%",
     "description": "%commentTranslate.description%",
     "version": "3.0.0",
-    "publisher": "intellsmi",
+    "publisher": "devcxl",
     "author": {
         "name": "Zheng MaoWei",
         "email": "intellsmi@gmail.com"
@@ -43,8 +43,8 @@
     "contributes": {
         "chatParticipants": [
 			{
-				"id": "intellism.translate",
-				"fullName": "Comment Translate",
+				"id": "devcxl.translate",
+				"fullName": "Better Comment Translate",
 				"name": "translate",
 				"description": "I can help you translate into other languages.",
 				"isSticky": true,
@@ -64,79 +64,79 @@
             {
                 "command": "commentTranslate.select",
                 "title": "%commentTranslate.command.select%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.translateForCopilotChat",
                 "title": "%commentTranslate.command.translateForCopilotChat%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.nameVariable",
                 "title": "%commentTranslate.command.nameVariable%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.selectAllText",
                 "title": "%commentTranslate.command.selectAllText%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.selectAllComment",
                 "title": "%commentTranslate.command.selectAllComment%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.translateAllText",
                 "title": "%commentTranslate.command.translateAllText%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.translateAllComment",
                 "title": "%commentTranslate.command.translateAllComment%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.clipboard",
                 "title": "%commentTranslate.command.clipboard%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.changeTranslateSource",
                 "title": "%commentTranslate.command.changeTranslateSource%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.changeTargetLanguage",
                 "title": "%commentTranslate.command.changeTargetLanguage%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.toggleBrowseMode",
                 "title": "%commentTranslate.command.toggleBrowseMode%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.toggleDocumentBrowseMode",
                 "title": "%commentTranslate.command.toggleDocumentBrowseMode%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.openDocumentBrowseMode",
                 "title": "%commentTranslate.command.openDocumentBrowseMode%",
                 "icon":"$(eye-closed)",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.closeDocumentBrowseMode",
                 "title": "%commentTranslate.command.closeDocumentBrowseMode%",
                 "icon":"$(eye)",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             },
             {
                 "command": "commentTranslate.replaceSelections",
                 "title": "%commentTranslate.command.replaceSelections%",
-                "category": "Comment Translate"
+                "category": "Better Comment Translate"
             }
         ],
 
@@ -249,7 +249,7 @@
         },
         "configuration": [
             {
-                "title": "Comment Translate Configuration",
+                "title": "Better Comment Translate Configuration",
                 "type": "Object",
                 "order": 11,
                 "properties": {

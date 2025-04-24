@@ -19,7 +19,7 @@ import { registerCompletion } from './languageFeature/completion';
 import { getUserLanguage, initTranslate } from './translate/manager';
 import { registerChatParticipant } from './copilot/translate';
 
-export let outputChannel = window.createOutputChannel('Comment Translate');
+export let outputChannel = window.createOutputChannel('Better Comment Translate');
 
 
 export let ctx: ExtensionContext;

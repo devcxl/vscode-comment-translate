@@ -1,4 +1,4 @@
-# VSCode Comment Translate
+# VSCode Better Comment Translate
 
 ## Introduction
 [【中文文档】](../README.md) [【日本語の文書】](./README_JA.md) [【한국어】](./README_KR.md)
